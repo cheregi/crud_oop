@@ -1,0 +1,23 @@
+{
+    "name": "numericall/comte",
+    "description": "This is a composer test project",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "cheregi",
+            "email": "cheregi.diana@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+		"symfony/routing": "^4.2@stable",
+        "ext-pdo": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
