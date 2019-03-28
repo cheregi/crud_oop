@@ -39,7 +39,7 @@ if($_SERVER['REQUEST_METHOD'] === "POST") {
 
             foreach($arrayLabel as $key => $value)
             {
-                echo "<option value='" . $key . "'" . ($currentData->getType()==$key?" selected":"") . ">" . $value . "</option>";
+                echo "<option value='" . $key . "'" . ($currentData->getSeats()==$key?" selected":"") . ">" . $value . "</option>";
             }
         ?>
     </select>
